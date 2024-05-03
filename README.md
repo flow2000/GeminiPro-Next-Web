@@ -8,9 +8,9 @@ One-Click to get a well-designed cross-platform Gemini web UI, Gemini Pro suppor
 
 一键免费部署你的跨平台私人 Gemini 应用, 支持Gemini Pro 模型。基于 [ChatGPT Next Web.](https://github.com/Yidadaa/ChatGPT-Next-Web/) 
 
-[Web App](https://chat.googlegemini.co/) / [Twitter](https://twitter.com/xianyun88)
+[Web App](https://gemini.kkwoya.com/) / [Twitter](https://twitter.com/xianyun88)
 
-[网页版](https://chat.googlegemini.co/) / [反馈](https://github.com/lchh5/GeminiPro-Next-Web/issues)
+[网页版](https://gemini.kkwoya.com/) / [反馈](https://github.com/lchh5/GeminiPro-Next-Web/issues)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flchh5%2FGeminiPro-Next-Web&env=GOOGLE_API_KEY&project-name=geminipro-next-web&repository-name=GeminiPro-Next-Web)
 

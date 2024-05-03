@@ -165,7 +165,7 @@ export function SideBar(props: { className?: string }) {
           </h1>
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Google Gemini Pro AI assistant.
+          复活吧，我的GPT
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -231,16 +231,6 @@ export function SideBar(props: { className?: string }) {
               title="Source Code"
             >
               <IconButton icon={<GithubIcon />} shadow />
-            </a>
-          </div>
-          <div className={styles["sidebar-action"]}>
-            <a
-              href={COFFEE_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Buy Me a Coffee"
-            >
-              <IconButton icon={<CoffeeIcon />} shadow />
             </a>
           </div>
         </div>

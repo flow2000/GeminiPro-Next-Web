@@ -40,32 +40,6 @@ export default function RootLayout({
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5839223319872967"
-          crossOrigin="anonymous"
-          strategy="lazyOnload"
-        />
-        <Script
-          strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=G-MRZ81287ZX`}
-        />
-        <Script
-          id="gtag-init"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){
-            dataLayer.push(arguments);
-          }
-          gtag('js', new Date());
-          
-          gtag('config', 'G-MRZ81287ZX');
-          page_path: window.location.pathname;
-        `,
-          }}
-        />
       </head>
       <body>
         {children}

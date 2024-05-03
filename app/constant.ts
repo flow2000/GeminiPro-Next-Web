@@ -3,14 +3,14 @@ export const REPO = "GeminiPro-Next-Web";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const COFFEE_URL = `https://www.buymeacoffee.com/xianyun`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
-export const SITE_URL = `https://chat.googlegemini.co/`;
+export const SITE_URL = `https://gemini.kkwoya.com/`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
 export const RELEASE_URL = `${REPO_URL}/releases`;
 export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
 export const FETCH_TAG_URL = `https://api.github.com/repos/${OWNER}/${REPO}/tags?per_page=1`;
 export const RUNTIME_CONFIG_DOM = "danger-runtime-config";
 
-export const DEFAULT_CORS_HOST = "https://chat.googlegemini.co";
+export const DEFAULT_CORS_HOST = "https://gemini.kkwoya.com";
 export const DEFAULT_API_HOST = `${DEFAULT_CORS_HOST}/api/proxy`;
 export const OPENAI_BASE_URL = "https://api.openai.com";
 
