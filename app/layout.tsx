@@ -11,9 +11,9 @@ import Script from "next/script";
 const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
-  title: "Google Gemini Pro Chat Bot",
+  title: "ChatGPT Next Web",
   description:
-    "Use Google Gemini Pro As ChatGPT. Includes text and image input, interacting with Google Gemini through multimodal prompting.",
+    "本网站基于 GPT 技术，提供有关人工智能领域的相关资讯、教程和实践案例，以及最新动态和趋势分析。我们使用 HTML 标签来创建 Web 页面，并为页面添加结构、内容和样式。",
   viewport: {
     width: "device-width",
     initialScale: 1,

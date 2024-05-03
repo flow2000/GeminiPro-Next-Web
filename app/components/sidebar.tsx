@@ -159,13 +159,12 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
           <h2>
-            <Link to={SITE_URL} target="_blank" title="GPTChat">
-              Gemini Pro Chat
-            </Link>
+            Gemini Pro Chat
           </h2>
         </div>
         <div className={styles["sidebar-sub-title"]}>
           复活吧，我的GPT
+          【请注意数据安全】
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
