@@ -163,7 +163,6 @@ export function SideBar(props: { className?: string }) {
           </h2>
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          复活吧，我的GPT
           【请注意数据安全】
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
